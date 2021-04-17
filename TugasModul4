@@ -24,6 +24,7 @@ def menghapus_buku():
 def tentang_kami():
     print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku")
 
+//tampilan pilihan menu
 def pilihan_menu():
     print ("\n")
     print ("----------- Program Data Buku Yang Dipinjam ----------")
