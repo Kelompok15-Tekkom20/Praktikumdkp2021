@@ -24,7 +24,9 @@ def menghapus_buku():
 def saran():
     saran_peminjam = input('Apa saran anda untuk kami? ')
     print('Terima Kasih')
-
+def Rekomendasi_buku():
+    Genre_buku = input('Genre apa yang anda suka? ')
+    print('Terima kasih')
 
 def tentang_kami():
     print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku")
@@ -37,7 +39,8 @@ def pilihan_menu():
     print ("[3] Menghapus buku")
     print ("[4] Tentang Kami")
     print ("[5] Saran untuk kami")
-    print ("[6] Exit")
+    print ("[6] Rekomendasi buku")
+    print ("[7] Exit")
     
     menu = input("\nPilih menu> ")
     print ("\n")
@@ -53,6 +56,8 @@ def pilihan_menu():
     elif int(menu) == 5:
         saran()
     elif int(menu) == 6:
+        Rekomendasi_buku()
+    elif int(menu) == 7:
         exit()
     else:
         print ("Salah pilih!")
