@@ -5,7 +5,7 @@ buku = []
 #method untuk mengisi identitas
 def isi_identitas():
     print ("\n")
-    print ("Halo, Pustakawan. Selamat Datang di Program Perpustakaan Kelompok 15")
+    print ("Hallo, Pustakawan. Selamat Datang di Program Perpustakaan Kelompok 15")
     print ("------------ Silahkan isi identitas Anda terlebih dahulu ------------")
     data = input ("Nama      :")
     data = input ("Pekerjaan :")
@@ -40,7 +40,8 @@ def Rekomendasi_buku():
     print('\nTerima kasih')
 
 def tentang_kami():
-    print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku")
+    print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku\n")
+    print("Anggota:\nAtarika Trimelfi Nofisa 21120120140094\nHafizh Anjar Saputra 21120120140143\nMuhammad Fitra Arisaputra 21120120140160\nMuhammad Raihan Maulana 21120120120027\nShift 1")
 
 #method untuk menampilkan pilihan menu
 def pilihan_menu():
