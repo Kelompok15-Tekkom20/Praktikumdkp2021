@@ -37,6 +37,7 @@ def Rekomendasi_buku():
     Genre_buku = input('Genre apa yang anda suka? ')
     print('Terima kasih')
 
+#method untuk menampilkan menu tentang kami
 def tentang_kami():
     print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku")
 
