@@ -2,15 +2,17 @@
 #Aplikasi list peminjam buku
 buku = []
 
+#method untuk mengisi identitas
 def isi_identitas():
     print ("\n")
     print ("Hallo, Pustakawan. Selamat Datang di Program Perpustakaan Kelompok 15")
     print ("------------ Silahkan isi identitas Anda terlebih dahulu ------------")
-    data = input ("Nama         :")
-    data = input ("Pekerjaan    :")
-    data = input ("No. HP       :")
+    data = input ("Nama      :")
+    data = input ("Pekerjaan :")
+    data = input ("No. HP    :")
 isi_identitas()
 
+#method isi menu
 def list_buku():
     if len(buku) <= 0:
         print ("Anda Belum Meminjam Buku Apapun")
@@ -32,14 +34,15 @@ def menghapus_buku():
         buku.remove(buku[indeks])
 def saran():
     saran_peminjam = input('Apa saran anda untuk kami? ')
-    print('Terima Kasih')
+    print('\nTerima Kasih')
 def Rekomendasi_buku():
     Genre_buku = input('Genre apa yang anda suka? ')
-    print('Terima kasih')
+    print('\nTerima kasih')
 
 def tentang_kami():
     print("   Kami adalah kelompok 15. Ini merupakan program perpustakaan \ndimana kita dapat melihat daftar list pinjaman buku, menambahkan buku,\n                      dan juga menghapus buku")
 
+#method untuk menampilkan pilihan menu
 def pilihan_menu():
     print ("\n")
     print ("----------- Program Data Buku Yang Dipinjam ----------")
@@ -69,8 +72,9 @@ def pilihan_menu():
     elif int(menu) == 7:
         exit()
     else:
-        print ("Salah pilih!")
+        print ("Harap masukkan pilihan yang benar!")
 
+#pengkondisian untuk terus mengulang program hingga memilih pilihan exit
 if __name__ == "__main__":
 
     while(True):
