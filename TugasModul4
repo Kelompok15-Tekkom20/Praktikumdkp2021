@@ -5,7 +5,7 @@ buku = []
 #method untuk mengisi identitas
 def isi_identitas():
     print ("\n")
-    print ("Hallo, Pustakawan. Selamat Datang di Program Perpustakaan Kelompok 15")
+    print ("Halo, Pustakawan. Selamat Datang di Program Perpustakaan Kelompok 15")
     print ("------------ Silahkan isi identitas Anda terlebih dahulu ------------")
     data = input ("Nama      :")
     data = input ("Pekerjaan :")
